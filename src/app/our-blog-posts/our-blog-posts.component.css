@@ -1,0 +1,78 @@
+.our-blog-posts{
+    height: auto;
+    background-image: url("/assets/images/blog-bg.jpg");
+    background-attachment: fixed;
+    padding-top: 50px;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.sidebar{
+    background-color: rgba(0, 0, 0, 0.50);
+ margin-top: 0;
+    height: 500px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 45px;
+}
+.sidebar .active{
+    color:#f7c552;
+}
+.sidebar button:hover{
+    color:#f7c552;
+}
+.card-body h4{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.card-body p{
+    font-size: 14px;
+    color:gray;
+}
+.card-body span{
+    color:#33c1cf;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 15px;
+}
+.card-body a{
+    cursor: pointer;
+}
+.sidebar hr{
+    background:#fff;
+}
+.sidebar h3{
+    color:#fff;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.sidebar p{
+    color:#fff;
+    font-size: 14px;
+}
+.sidebar button{
+    background:#fff;
+    color:#121212;
+    border:none;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+@media(min-width:568px) and (max-width:767px){
+    .sidebar button{
+        background:#fff;
+        color:#121212;
+        border:none;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 800;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+    } 
+}

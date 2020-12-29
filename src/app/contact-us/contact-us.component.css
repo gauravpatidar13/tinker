@@ -1,0 +1,53 @@
+.con{
+    background:#596065;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.con div{
+    background: transparent;
+    width: 400px;
+    height: auto;
+}
+.con p{
+    text-align: center;
+    color:#fff;
+    font-size: 13px;
+}
+.con button{
+    background:#33c1cf;
+    color:#fff;
+    text-transform: uppercase;
+    border:none;
+    border-radius: 30px;
+    padding:10px 20px;
+    margin-left: 50%;
+    font-size: 12px;
+    transform: translate(-50%,0);
+}
+.con h3{
+    text-align: center;
+    color:#fff;
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.con hr{
+    background:#fff;
+    width: 70%;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+}
+@media (max-width:567px){
+    .con{
+        background:#596065;
+        height:400px ;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        
+    }   
+}
